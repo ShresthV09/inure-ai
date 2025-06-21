@@ -1,5 +1,8 @@
 {
-  "buildCommand": "npm install --force && npm run build",
-  "installCommand": "npm install --force",
-  "framework": "vite"
+  "buildCommand": "bun install && bun run build",
+  "installCommand": "curl -fsSL https://bun.sh/install | bash && bun install",
+  "framework": "vite",
+  "env": {
+    "NODE_OPTIONS": "--max_old_space_size=4096"
+  }
 }
