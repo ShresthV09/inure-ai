@@ -79,21 +79,21 @@ const Stats = () => {
             suffix="+"
           />
           <Counter 
-            end={98} 
+            end={99} 
             duration={2} 
             label="Client Satisfaction" 
             sublabel="Average satisfaction score"
             suffix="%"
           />
           <Counter 
-            end={5} 
+            end={3} 
             duration={2} 
             label="Years Experience" 
             sublabel="In AI development"
             suffix="+"
           />
           <Counter 
-            end={20} 
+            end={10} 
             duration={2} 
             label="Industries Served" 
             sublabel="Across various sectors"

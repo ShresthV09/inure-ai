@@ -7,24 +7,25 @@ const WhyWorkWithUs = () => {
   const benefits = [
     {
       icon: Target,
-      title: "Close the Implementation Gap",
-      percentage: 66,
-      description: "Most AI projects fail at deployment. We bridge the gap between proof-of-concept and production with battle-tested deployment pipelines and real-world scaling experience."
+      title: "⁠ ⁠Seamless AI Implementationp",
+    
+      description: "We take your AI project from idea to launch without the usual delays. From setting up data and models to getting everything running smoothly in the cloud, we handle it all. Our clear process means most projects go live in weeks, not months, so you start seeing results fast."
     },
     {
       icon: Users,
-      title: "Defuse the AI Culture Shock",
-      percentage: 67,
-      stat: "2 in 3 execs",
-      description: "Change management is the silent killer of AI adoption. We help teams embrace AI tools naturally through gradual rollouts and comprehensive training programs."
+      title: "Help enterprise embrace the change",
+    
+     
+      description: "New technology only works when people feel confident using it. That’s why we keep things simple with clear training, open Q&A sessions, and tools your team can actually understand. Even after launch, we stay close, gather feedback, and fine-tune things so everyone from leadership to new hires, moves forward together."
     },
     {
       icon: Shield,
-      title: "Lock down Security & Compliance",
-      percentage: 64,
-      description: "Enterprise AI demands bulletproof security. Our solutions include data encryption, audit trails, and compliance frameworks that satisfy the strictest corporate requirements."
+      title: "Build trust into every model ",
+   
+      description: "We treat security as must-haves, not extras. From day one, we protect your data, check for risks, and make sure your AI gives clear, unbiased answers. So whether you're showing it to customers or regulators, you can do it with full confidence."
     }
   ];
+
 
   return (
     <section id="why-us" className="py-20 bg-light-surface">
@@ -37,7 +38,7 @@ const WhyWorkWithUs = () => {
             <p>
               Inure AI began in a college dorm when our founder realized that despite all the AI breakthroughs, 
               most companies were still struggling to actually implement and scale these technologies. 
-              We've since helped over 200+ companies transform their operations through intelligent automation.
+              We've since helped over 50+ companies transform their operations through intelligent automation.
             </p>
           </div>
         </div>
@@ -46,20 +47,14 @@ const WhyWorkWithUs = () => {
           {benefits.map((benefit, index) => (
             <Card key={index} className="bg-white border-electric-cyan/20 hover:shadow-lg hover:shadow-electric-cyan/10 transition-all duration-300">
               <CardHeader>
-                <div className="flex items-center space-x-3 mb-4">
+                <div className="flex items-center space-x-3 mb-2">
                   <benefit.icon className="h-8 w-8 text-electric-cyan" />
-                  <CardTitle className="text-midnight-navy text-lg">{benefit.title}</CardTitle>
+                  <CardTitle className="text-midnight-navy text-md">{benefit.title}</CardTitle>
                 </div>
-                <div className="space-y-2">
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm text-slate-600">Success Rate</span>
-                    <span className="text-2xl font-bold text-midnight-navy">{benefit.percentage}%</span>
-                  </div>
-                  <Progress value={benefit.percentage} className="h-2" />
-                </div>
+               
               </CardHeader>
               <CardContent>
-                <p className="text-slate-600 leading-relaxed">{benefit.description}</p>
+                <p className="text-slate-600 text-sm leading-relaxed">{benefit.description}</p>
               </CardContent>
             </Card>
           ))}

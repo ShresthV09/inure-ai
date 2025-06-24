@@ -19,7 +19,7 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-midnight-navy mb-4">
-            Build, deploy, and scale AI — end to end.
+            Build Deploy and Scale AI — end to end. 
           </h2>
         </div>
         
