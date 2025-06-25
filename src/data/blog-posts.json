@@ -35,7 +35,7 @@
         "author": {
           "name": "InureAI Team",
           "role": "AI Research",
-          "avatar": "/logo.jpeg"
+          "avatar": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
         }
       },
       "sections": [
@@ -92,7 +92,7 @@
         "author": {
           "name": "InureAI Team",
           "role": "AI Innovation",
-          "avatar": "/logo.jpeg"
+          "avatar": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
         }
       },
       "sections": [
@@ -121,7 +121,7 @@
       "author": {
         "name": "InureAI Team",
         "role": "Supply Chain AI",
-        "avatar": "https://images.unsplash.com/photo-1675266873434-5ba73c38ce6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "avatar": "av1.avif"
       },
       "publishedAt": "2024-06-24",
       "readTime": "15 min read",
@@ -149,7 +149,7 @@
         "author": {
           "name": "InureAI Team",
           "role": "Supply Chain AI",
-          "avatar": "/logo.jpeg"
+          "avatar": "av1.avif"
         }
       },
       "sections": [
@@ -178,7 +178,7 @@
       "author": {
         "name": "InureAI Team",
         "role": "AI Brain Architecture",
-        "avatar": "https://images.unsplash.com/photo-1676299081847-5c7d56904548?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      "avatar": "av2.avif"
       },
       "publishedAt": "2024-06-26",
       "readTime": "14 min read",
@@ -206,7 +206,7 @@
         "author": {
           "name": "InureAI Team",
           "role": "AI Brain Architecture",
-          "avatar": "/logo.jpeg"
+       "avatar": "av2.avif"
         }
       },
       "sections": [
