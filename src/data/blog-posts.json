@@ -7,7 +7,7 @@
       "author": {
         "name": "InureAI Team",
         "role": "AI Research",
-        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+        "avatar": "/logo.jpeg"
       },
       "publishedAt": "2024-06-24",
       "readTime": "12 min read",
@@ -35,7 +35,7 @@
         "author": {
           "name": "InureAI Team",
           "role": "AI Research",
-          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          "avatar": "/logo.jpeg"
         }
       },
       "sections": [
@@ -62,15 +62,15 @@
       "title": "Unlocking the Power of Emotion Detection",
       "subtitle": "Real-Time Emotional Intelligence for Business",
       "author": {
-        "name": "InureAI Research",
+        "name": "InureAI Team",
         "role": "AI Innovation",
-        "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+        "avatar": "/logo.jpeg"
       },
       "publishedAt": "2024-06-24",
       "readTime": "10 min read",
       "introduction": "In a world where personalization is everything, most businesses still rely on surface-level data purchase history, feedback forms, occasional reviews. But real emotional context? That's missing. And that's where we come in.",
       "mainImage": {
-        "url": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1310&h=873&q=80",
+        "url": "/EmotionAI.jpeg",
         "caption": "Real-time emotion detection transforming customer experiences across industries."
       },
       "keyPoints": [
@@ -90,9 +90,9 @@
       "quote": {
         "text": "Technology should feel more human, not less. We're not building dashboards just for data, we're building tools to help people better understand each other. And in doing so, we hope to transform the everyday experiences that make businesses not only efficient, but emotionally intelligent.",
         "author": {
-          "name": "InureAI Research",
+          "name": "InureAI Team",
           "role": "AI Innovation",
-          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          "avatar": "/logo.jpeg"
         }
       },
       "sections": [
@@ -119,9 +119,9 @@
       "title": "AI Automation in Logistics",
       "subtitle": "Solving Yesterday's Problems Before Lunch",
       "author": {
-        "name": "InureAI Logistics",
+        "name": "InureAI Team",
         "role": "Supply Chain AI",
-        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+        "avatar": "/logo.jpeg"
       },
       "publishedAt": "2024-06-24",
       "readTime": "15 min read",
@@ -147,9 +147,9 @@
       "quote": {
         "text": "The AI adoption curve in the supply chain has already bent upward; the market is projected to reach nearly US $20 billion this year alone. Waiting means competitors iterate on real data while you debate roadmaps. The good news: you don't have to swallow a five-year transformation.",
         "author": {
-          "name": "InureAI Logistics",
+          "name": "InureAI Team",
           "role": "Supply Chain AI",
-          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          "avatar": "/logo.jpeg"
         }
       },
       "sections": [
@@ -168,6 +168,67 @@
         {
           "title": "Why Act Now and Getting Started",
           "content": "The AI adoption curve in the supply chain has already bent upward; the market is projected to reach nearly US $20 billion this year alone. Waiting means competitors iterate on real data while you debate roadmaps. The good news: you don't have to swallow a five-year transformation. A focused automation sprint lets you test, learn and scale in deliberate steps. Ready to see where your miles are vanishing? Book a 20-minute discovery call with our team. We'll run the numbers, show the upside, and if the savings don't excite you we'll happily part as friends, data in hand and no strings attached."
+        }
+      ]
+    },
+    {
+      "id": "building-ai-brains-with-purpose",
+      "title": "Building AI Brains with Purpose: How InureAI is Fine-Tuning the Future of Personalized Intelligence",
+      "subtitle": "Crafting Intelligent, Role-Specific, Emotionally Aware Systems",
+      "author": {
+        "name": "InureAI Team",
+        "role": "AI Brain Architecture",
+        "avatar": "/logo.jpeg"
+      },
+      "publishedAt": "2024-06-26",
+      "readTime": "14 min read",
+      "introduction": "At InureAI, we're crafting brains. Intelligent, role-specific, emotionally aware brains that can teach, listen, coach, and support with context and care. Whether it's an AI Tutor Brain guiding a student through complex topics, or an AI Therapist Brain holding space for someone in emotional distress, our mission is clear: to humanize intelligence through deep specialization.",
+      "mainImage": {
+        "url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=1310&h=873&q=80",
+        "caption": "Purpose-built AI brains designed for specialized human interaction and support."
+      },
+      "keyPoints": [
+        {
+          "title": "Purpose-Trained Intelligence Systems",
+          "description": "In an age of generic LLMs, we're pushing the boundaries by building purpose-trained intelligence systems what we call 'AI Brains.' These are not just assistants with fancy prompts. These are domain-trained, safety-aware, persona-consistent agents fine-tuned to deeply understand the needs, tone, and context of specific users."
+        },
+        {
+          "title": "Living Systems with Memory and Empathy",
+          "description": "We treat every AI Brain like a living system with memory, empathy, guardrails, and domain depth. Each brain is trained with curated, high-signal datasets and embedded role identity into the model's attention patterns, enabling consistent tone, pacing, and intent."
+        },
+        {
+          "title": "Multimodal Emotional Intelligence",
+          "description": "For emotional domains, we fuse text-based input with voice-based sentiment cues and engagement signals (pauses, speech rate, hesitation) to generate real-time Emotional Vulnerability Scores. This allows the AI to adapt its tone, assertiveness, and escalation logic dynamically."
+        }
+      ],
+      "quote": {
+        "text": "Generic AI is useful. But purpose-built AI brains unlock trust, relevance, and real-world adoption. Whether you're an edtech platform, a mental health startup, or an enterprise building your own AI assistant, InureAI helps you go from 'smart agent' to 'meaningful guide.'",
+        "author": {
+          "name": "InureAI Team",
+          "role": "AI Brain Architecture",
+          "avatar": "/logo.jpeg"
+        }
+      },
+      "sections": [
+        {
+          "title": "What Makes Our Approach Different",
+          "content": "In an age of generic LLMs, we're pushing the boundaries by building purpose-trained intelligence systems what we call 'AI Brains.' These are not just assistants with fancy prompts. These are domain-trained, safety-aware, persona-consistent agents fine-tuned to deeply understand the needs, tone, and context of specific users. We treat every AI Brain like a living system with memory, empathy, guardrails, and domain depth."
+        },
+        {
+          "title": "Our Development Philosophy: Four Core Pillars",
+          "content": "Fine-Tuning on Specialized Data: Each brain is trained with curated, high-signal datasets. The Tutor Brain learns from structured curriculum, real student Q&A patterns, and pedagogy principles. The Therapist Brain is exposed to anonymized therapy transcripts, CBT/ACT frameworks, and crisis protocol data while maintaining ethical standards. Dynamic Role Conditioning: We go beyond system prompts by embedding role identity into the model's attention patterns, enabling consistent tone, pacing, and intent that matches the role whether it's a patient tutor or a calm, non-judgmental listener."
+        },
+        {
+          "title": "Multimodal Empathy and Safety Architecture",
+          "content": "For emotional domains, we fuse text-based input with voice-based sentiment cues and engagement signals (pauses, speech rate, hesitation) to generate real-time Emotional Vulnerability Scores. This allows the AI to adapt its tone, assertiveness, and escalation logic dynamically. Every AI Brain is wrapped in LLM safety filters to prevent misinformation or overreach, real-time moderation models that adjust sensitivity based on user state, and human-in-loop architecture for escalation when needed."
+        },
+        {
+          "title": "Use Cases and Real-World Applications",
+          "content": "AI Tutor Brain provides personalized academic coaching with memory of student's progress, adaptive questioning, and voice-based encouragement. AI Therapist Brain offers journaling support, emotional reflection, and safe-space dialogue using CBT-inspired conversation patterns. AI Coach Brain delivers future-facing support for personal productivity, motivation, and life design with reflection and nudging loops. Each brain is specifically designed to unlock trust, relevance, and real-world adoption in its domain."
+        },
+        {
+          "title": "Building Your Own AI Brain: Our Services",
+          "content": "We offer custom fine-tuning services, guardrail and moderation stack integration, deployment-ready inference pipelines, and voice plus text integration for multimodal inputs. Whether you're building the next generation of education, therapy, or coaching tools, we're here to help you build the brain behind it. Let's talk about transforming your smart agent into a meaningful guide that users can trust and rely on for specialized, empathetic support."
         }
       ]
     }

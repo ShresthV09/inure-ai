@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Clock, Target, Users, Play, Sparkles, CheckCircle } from "lucide-react";
+import { ArrowRight, Target, Users, Play, Sparkles, CheckCircle, Award, Puzzle, Rocket } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -57,8 +57,8 @@ const Hero = () => {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-8 animate-fade-in-delay-3">
                 <div className="bg-white/70 backdrop-blur-sm border flex justify-center border-slate-200/50 rounded-2xl p-2 shadow-sm hover:shadow-md transition-all duration-300 group">
                   <div className="flex items-center gap-3 justify-center">
-                    <div className="w-10 h-10 bg-green-100 rounded-xl flex items-center justify-center">
-                      <Clock className="w-5 h-5 text-green-600" />
+                    <div className="w-10 h-10 bg-yellow-100 rounded-xl flex items-center justify-center">
+                      <Award className="w-5 h-5 text-yellow-600" />
                     </div>
                     <div className="text-left">
                       <div className="text-slate-900 font-bold text-sm">Expert Team</div>
@@ -69,7 +69,7 @@ const Hero = () => {
                 <div className="bg-white/70 backdrop-blur-sm border border-slate-200/50 rounded-2xl p-2 shadow-sm hover:shadow-md transition-all duration-300 group">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center">
-                      <Target className="w-5 h-5 text-blue-600" />
+                      <Puzzle className="w-5 h-5 text-blue-600" />
                     </div>
                     <div className="text-left">
                       <div className="text-slate-900 font-bold text-sm">Custom Solutions</div>
@@ -80,7 +80,7 @@ const Hero = () => {
                 <div className="bg-white/70 backdrop-blur-sm border border-slate-200/50 rounded-2xl p-2 shadow-sm hover:shadow-md transition-all duration-300 group">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-purple-100 rounded-xl flex items-center justify-center">
-                      <Users className="w-5 h-5 text-purple-600" />
+                      <Rocket className="w-5 h-5 text-purple-600" />
                     </div>
                     <div className="text-left">
                       <div className="text-slate-900 font-bold text-sm">Fast Delivery</div>
@@ -145,16 +145,10 @@ const Hero = () => {
                       </div>
                       <h3 className="text-xl font-bold text-slate-900">AI Automation</h3>
                       <p className="text-slate-600">Intelligent workflows that scale with your business</p>
+                      <p className="text-slate-600">Automate repetitive tasks, boost accuracy, and free your team to focus on high-value work.</p>
+                      <p className="text-slate-600">From Fine Tuning LLMs to Custom ML Models</p>
                     </div>
-                    <div className="space-y-2">
-                      <div className="flex justify-between text-sm">
-                        <span className="text-slate-600">Efficiency</span>
-                        <span className="text-electric-cyan font-semibold">95%</span>
-                      </div>
-                      <div className="w-full bg-slate-200 rounded-full h-2">
-                        <div className="bg-gradient-to-r from-electric-cyan to-blue-400 h-2 rounded-full w-[95%]"></div>
-                      </div>
-                    </div>
+              
                   </div>
                 </div>
 

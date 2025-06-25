@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from './ui/button';
 import { Menu, X, ChevronDown } from 'lucide-react';
 
+
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -37,7 +38,7 @@ const Header = () => {
             className="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors"
             whileHover={{ scale: 1.02 }}
           >
-            InureAI
+          <img src="/logo.jpeg" alt="InureAI" width={100} height={50} className='scale-150' />
           </motion.a>
 
           {/* Desktop Navigation */}
@@ -77,9 +78,9 @@ const Header = () => {
               </AnimatePresence>
             </div>
 
-            <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">About</a>
-            <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">Case Studies</a>
-            <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">Blog</a>
+           
+              <a href="/CaseStudies" className="text-gray-600 hover:text-blue-600 transition-colors">Case Studies</a>
+            
 
             <Button 
               onClick={() => window.open('https://calendly.com/rodriguesgrege_/', '_blank')}

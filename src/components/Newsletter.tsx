@@ -83,7 +83,7 @@ const Newsletter = () => {
               <div className="hidden md:block relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#3B82F6]/20 to-[#60A5FA]/20 rounded-2xl blur-2xl"></div>
                 <img 
-                  src="/placeholder.svg" 
+                  src="/logo.svg" 
                   alt="AI Development Process"
                   className="relative z-10 w-full rounded-2xl border border-[#3B82F6]/20"
                 />
