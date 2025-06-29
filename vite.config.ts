@@ -21,7 +21,9 @@ export default defineConfig(({ mode }) => ({
         manualChunks: undefined,
       },
     },
-    sourcemap: false,
+    sourcemap: mode === "development",
     target: "esnext",
+    minify: mode === "production",
+    cssMinify: mode === "production",
   },
 }));

@@ -41,13 +41,13 @@ const Hero = () => {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-delay-2">
-                <Button className=" text-white px-8 py-6 text-md font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group">
+                <Button onClick={() => window.open('https://calendly.com/rodriguesgrege_/', '_blank')} className=" text-white px-8 py-6 text-md font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group">
                   <span>Get Free Consultation</span>
                   <div className="ml-2 transition-transform group-hover:translate-x-1">
                     <Play className="w-5 h-5" />
                   </div>
                 </Button>
-                <Button variant="outline" className="border-2 border-slate-300 hover:border-electric-cyan bg-white hover:bg-blue-50 text-slate-700 hover:text-electric-cyan px-8 py-6 text-md font-semibold rounded-xl shadow-sm hover:shadow-md transition-all duration-300 group">
+                <Button onClick={() => window.open('/CaseStudies', '_blank')} variant="outline" className="border-2 border-slate-300 hover:border-electric-cyan bg-white hover:bg-blue-50 text-slate-700 hover:text-electric-cyan px-8 py-6 text-md font-semibold rounded-xl shadow-sm hover:shadow-md transition-all duration-300 group">
                   <span>View our work</span>
                   <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
                 </Button>

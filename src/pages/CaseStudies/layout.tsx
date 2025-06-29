@@ -4,7 +4,7 @@ import { Link, Outlet, useLocation } from 'react-router-dom';
 
 export default function BlogLayout() {
   const location = useLocation();
-  const isRootBlogPage = location.pathname === '/blog';
+  const isRootBlogPage = location.pathname === '/case-studies';
 
   return (
     <div className="min-h-screen bg-white">

@@ -1,16 +1,14 @@
 {
-  "buildCommand": "bun install && bun run build",
-  "installCommand": "curl -fsSL https://bun.sh/install | bash && bun install",
   "framework": "vite",
+  "buildCommand": "bun run build",
+  "installCommand": "curl -fsSL https://bun.sh/install | bash && ~/.bun/bin/bun install",
   "env": {
     "NODE_OPTIONS": "--max_old_space_size=4096"
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/[^.]+",
-      "dest": "/",
-      "status": 200
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
