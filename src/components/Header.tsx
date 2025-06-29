@@ -82,12 +82,24 @@ const Header = () => {
               <a href="/CaseStudies" className="text-gray-600 hover:text-blue-600 transition-colors">Case Studies</a>
             
 
-            <Button 
-              onClick={() => window.open('https://calendly.com/rodriguesgrege_/', '_blank')}
-              className="bg-blue-600 hover:bg-blue-700 text-white transition-all duration-300 shadow-sm hover:shadow-md"
-            >
-              Book a Call
-            </Button>
+            <div className="flex items-center space-x-2 ">
+              {/* LinkedIn logo/link */}
+              <a
+                href="https://www.linkedin.com/company/inure-ai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center bg-[#000001] hover:bg-[#004182] w-7 h-7 rounded transition-colors"
+              >
+                <span className="text-white font-semibold text-lg leading-none">in</span>
+              </a>
+
+              <Button 
+                onClick={() => window.open('https://calendly.com/rodriguesgrege_/', '_blank')}
+                className="bg-blue-600 hover:bg-blue-700 text-white transition-all duration-300 shadow-sm hover:shadow-md"
+              >
+                Book a Call
+              </Button>
+            </div>
           </div>
 
           {/* Mobile Menu Button */}

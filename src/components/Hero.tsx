@@ -55,10 +55,11 @@ const Hero = () => {
 
               {/* Stats pills */}
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-8 animate-fade-in-delay-3">
-                <div className="bg-white/70 backdrop-blur-sm border flex justify-center border-slate-200/50 rounded-2xl p-2 shadow-sm hover:shadow-md transition-all duration-300 group">
-                  <div className="flex items-center gap-3 justify-center">
-                    <div className="w-10 h-10 bg-yellow-100 rounded-xl flex items-center justify-center">
-                      <Award className="w-5 h-5 text-yellow-600" />
+              
+                <div className="bg-white/70 backdrop-blur-sm border border-slate-200/50 rounded-2xl p-2 shadow-sm hover:shadow-md transition-all duration-300 group">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 bg-gray-50 rounded-xl flex items-center justify-center">
+                    <Award className="w-5 h-5 text-yellow-500" />
                     </div>
                     <div className="text-left">
                       <div className="text-slate-900 font-bold text-sm">Expert Team</div>
